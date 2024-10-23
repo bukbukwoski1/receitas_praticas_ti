@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+header{
+    padding: 16px 0;
+    background-color: rgb(255, 166, 0);
+    color: #fff;
+}
+
+
+h1{
+    font-size: 40px;
+    text-decoration:wavy;
+}
+
+h2{
+    font-size: 30px;
+    text-decoration:none;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.container,
+h2{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    background-color: rgba(255, 166, 0, 0.3) ;
+}
+
+section p{
+    text-align: justify;
+    margin-bottom: 8px;
+}
+
+section .container-dishes{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+}
+
+section .container .img-about{
+    height: 450px;
+    margin-right: 50px;
+    margin-top: 3px;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color:rgb(255, 166, 0) ;
+    color: #fff;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color:rgb(255, 195, 83) ;
+}
+
+input:focus,
+textarea:focus{
+    outline-color:rgb(255, 166, 0) ;
+}
+
+section .container .food-list li img {
+    height: 190px;
+    justify-content: center;
+    }
+
+.food-list li{
+    display: inline;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+footer{
+    background-color: rgb(255, 166, 0);
+    color: #fff;
+    padding: 16px 0;
+}
